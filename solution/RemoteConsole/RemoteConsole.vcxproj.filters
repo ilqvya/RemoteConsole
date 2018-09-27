@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{f276f408-75d1-4056-ba63-42e76b34190a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSession.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleClient.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleServer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientSession.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleClient.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleServer.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

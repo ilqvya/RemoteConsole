@@ -1,0 +1,11 @@
+X64-release
+perl Configure VC-WIN64A --prefix=C:\Users\effol\Dev\External\OpenSSL\build\openssl-1.1.0g_WINXP\x64\Release --openssldir=C:\Users\effol\Dev\External\OpenSSL\SSL --release no-shared -D_WIN32_WINNT=0x0501 no-ssl no-dtls no-tls1 no-tls1_1 no-async
+
+X64-debug
+perl Configure VC-WIN64A --prefix=C:\Users\effol\Dev\External\OpenSSL\build\openssl-1.1.0g_WINXP\x64\Debug --openssldir=C:\Users\effol\Dev\External\OpenSSL\SSL --debug no-shared -D_WIN32_WINNT=0x0501 no-ssl no-dtls no-tls1 no-tls1_1 no-async
+
+X86-release
+perl Configure VC-WIN32 --prefix=C:\Users\effol\Dev\External\OpenSSL\build\openssl-1.1.0g_WINXP\x86\Release --openssldir=C:\Users\effol\Dev\External\OpenSSL\SSL --release no-shared -D_WIN32_WINNT=0x0501 no-ssl no-dtls no-tls1 no-tls1_1 no-async
+
+X86-debug
+perl Configure VC-WIN32 --prefix=C:\Users\effol\Dev\External\OpenSSL\build\openssl-1.1.0g_WINXP\x86\Debug --openssldir=C:\Users\effol\Dev\External\OpenSSL\SSL --debug no-shared -D_WIN32_WINNT=0x0501 no-ssl no-dtls no-tls1 no-tls1_1 no-async
